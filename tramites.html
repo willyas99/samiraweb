@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trámites Administrativos - Guía Empresas IT</title>
+    <!-- CAMBIAR ESTAS 2 LÍNEAS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pages-style.css">
+    <!-- FIN CAMBIOS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="page-tramites">
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-chart-network"></i>
+            IT Business Guide
+        </div>
+        <div class="nav-menu">
+            <a href="index.html">Inicio</a>
+            <a href="financiacion.html">Financiación</a>
+            <a href="rentabilidad.html">Rentabilidad</a>
+            <a href="fiscalidad.html">Fiscalidad</a>
+            <a href="tramites.html" class="active">Trámites</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <div class="breadcrumb">
+                <a href="index.html">Inicio</a> / <span>Trámites</span>
+            </div>
+            <h1><i class="fas fa-file-signature"></i> Gestión Administrativa y Trámites</h1>
+            <p class="subtitle">Guía paso a paso de todos los trámites necesarios para crear tu empresa IT</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <main class="page-content">
+        
+        <!-- Introducción -->
+        <section class="content-section">
+            <h2>Proceso Completo de Apertura Empresarial</h2>
+            <p class="intro-text">Crear una empresa IT en España requiere completar una serie de trámites administrativos obligatorios. Esta guía te acompaña paso a paso desde el primer día hasta que tu empresa está 100% operativa y lista para facturar. El proceso completo puede completarse en <strong>7-15 días hábiles</strong> si sigues el orden correcto.</p>
+            
+            <div class="timeline-intro">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-flag"></i></div>
+                    <div class="timeline-content">
+                        <h4>Día 1-3</h4>
+                        <p>Certificado digital + Forma jurídica</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-file-alt"></i></div>
+                    <div class="timeline-content">
+                        <h4>Día 4-7</h4>
+                        <p>Alta Hacienda (AEAT) + Seguridad Social</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-building"></i></div>
+                    <div class="timeline-content">
+                        <h4>Día 8-12</h4>
+                        <p>Licencias + Registros + Cuenta bancaria</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="timeline-content">
+                        <h4>Día 13-15</h4>
+                        <p>Empresa operativa → ¡Primera factura!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PASO 1: Certificado Digital -->
+        <section class="content-section">
+            <h2><i class="fas fa-id-card"></i> PASO 1: Certificado Digital Electrónico</h2>
+            <p class="intro-text">El certificado digital es tu <strong>DNI electrónico</strong> y la llave maestra para realizar todos los trámites online. Es obligatorio para comunicarte con Hacienda, Seguridad Social y cualquier administración pública.</p>
+            
+            <div class="steps-grid">
+                <div class="step-card featured">
+                    <div class="step-header">
+                        <div class="step-number">1.1</div>
+                        <h3>Obtener Certificado FNMT</h3>
+                        <span class="badge badge-success">Recomendado</span>
+                    </div>
+                    
+                    <div class="step-content">
+                        <h4><i class="fas fa-clock"></i> Plazo: 24-48 horas</h4>
+                        <h4><i class="fas fa-euro-sign"></i> Coste: GRATUITO</h4>
+                        
+                        <div class="process-detail">
+                            <h5>Proceso completo:</h5>
+                            <ol>
+                                <li>
+                                    <strong>Solicitud online:</strong>
+                                    <p>Accede a <a href="https://www.sede.fnmt.gob.es" target="_blank">https://www.sede.fnmt.gob.es</a></p>
+                                    <p>Rellena formulario con DNI/NIE + email. Recibes código de solicitud por email.</p>
+                                </li>
+                                <li>
+                                    <strong>Acreditación presencial:</strong>
+                                    <p>Acude con DNI original a oficina de acreditación (correos, AEAT, ayuntamiento) en plazo máximo 10 días.</p>
+                                    <p><a href="https://www.sede.fnmt.gob.es/certificados/persona-fisica/obtener-certificado-software/oficinas-de-acreditacion" target="_blank">Buscar oficina cercana</a></p>
+                                </li>
+                                <li>
+                                    <strong>Descarga del certificado:</strong>
+                                    <p>Tras acreditación presencial, descarga el certificado desde la misma web de FNMT (mismo navegador usado en paso 1).</p>
+                                    <p>Se instala automáticamente en tu navegador.</p>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="tip-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Consejo:</strong> El certificado solo funciona en el navegador donde lo descargaste. Si usas varios dispositivos, exporta el certificado (.pfx) con contraseña e impórtalo en otros equipos.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <div class="step-number">1.2</div>
+                        <h3>Alternativa: Cl@ve Permanente</h3>
+                        <span class="badge badge-info">Sin cita previa</span>
+                    </div>
+                    
+                    <div class="step-content">
+                        <h4><i class="fas fa-clock"></i> Plazo: 10 minutos (videollamada)</h4>
+                        <h4><i class="fas fa-euro-sign"></i> Coste: GRATUITO</h4>
+                        
+                        <div class="process-detail">
+                            <h5>Cómo obtenerlo:</h5>
+                            <ul>
+                                <li>Descarga app "Cl@ve" (iOS/Android) o accede vía web <a href="https://clave.gob.es" target="_blank">https://clave.gob.es</a></li>
+                                <li>Verifica identidad por videollamada con DNI/NIE</li>
+                                <li>Crea PIN de 6 dígitos</li>
+                                <li>Válido para todos los trámites administrativos</li>
+                            </ul>
+                        </div>
+
+                        <div class="warning-box">
+                            <i class="fas fa-info-circle"></i>
+                            <strong>Limitación:</strong> Algunos ayuntamientos y registros específicos solo aceptan certificado FNMT. Cl@ve funciona perfectamente con AEAT, Seguridad Social y mayoría de administraciones.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PASO 2: Alta en Hacienda -->
+        <section class="content-section highlight-section">
+            <h2><i class="fas fa-landmark"></i> PASO 2: Alta en Agencia Tributaria (AEAT)</h2>
+            <p class="intro-text">La declaración censal es tu presentación oficial ante Hacienda. Comunicas qué actividad vas a realizar, qué impuestos aplicarás y cómo vas a tributar.</p>
+            
+            <div class="hacienda-grid">
+                <div class="hacienda-card">
+                    <h3><i class="fas fa-file-invoice"></i> Modelo 036: Declaración Censal</h3>
+                    
+                    <div class="form-details">
+                        <h4>Información necesaria:</h4>
+                        <ul>
+                            <li><strong>Datos personales:</strong> DNI/NIE, domicilio fiscal</li>
+                            <li><strong>Actividad económica (IAE):</strong> Epígrafes del sector IT</li>
+                            <li><strong>Régimen de IVA:</strong> General (21%) o recargo de equivalencia</li>
+                            <li><strong>Estimación IRPF:</strong> Directa (recomendado) u objetiva</li>
+                            <li><strong>Obligaciones fiscales:</strong> IVA trimestral, IRPF trimestral, Modelo 347</li>
+                        </ul>
+                    </div>
+
+                    <div class="iae-section">
+                        <h4><i class="fas fa-tags"></i> Epígrafes IAE principales para empresas IT:</h4>
+                        <table class="iae-table">
+                            <thead>
+                                <tr>
+                                    <th>Epígrafe</th>
+                                    <th>Actividad</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>844.1</strong></td>
+                                    <td>Consultoría hardware y software</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>844.2</strong></td>
+                                    <td>Desarrollo y edición de software</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>844.3</strong></td>
+                                    <td>Proceso de datos, hosting, servidores</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>844.4</strong></td>
+                                    <td>Mantenimiento y reparación ordenadores</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>842</strong></td>
+                                    <td>Servicios telecomunicaciones (redes, cableado)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>722.2</strong></td>
+                                    <td>Diseño web y gráfico digital</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="info-box">
+                            <i class="fas fa-gift"></i>
+                            <strong>Exención IAE:</strong> Si facturas menos de 1.000.000€/año, estás exento de pagar el Impuesto de Actividades Económicas. Solo declaras el epígrafe, sin pago.
+                        </div>
+                    </div>
+
+                    <div class="proceso-aeat">
+                        <h4><i class="fas fa-mouse-pointer"></i> Cómo presentar el Modelo 036:</h4>
+                        <ol>
+                            <li>Accede a <a href="https://sede.agenciatributaria.gob.es" target="_blank">Sede Electrónica AEAT</a></li>
+                            <li>Identifícate con certificado digital o Cl@ve</li>
+                            <li>Busca "Modelo 036/037 - Alta censal"</li>
+                            <li>Rellena formulario online (guía paso a paso disponible)</li>
+                            <li>Firma y envía → Recibes justificante inmediato</li>
+                        </ol>
+                        
+                        <div class="deadline">
+                            <i class="fas fa-calendar-check"></i>
+                            <strong>Plazo:</strong> Antes de iniciar actividad (antes de emitir primera factura). Recomendado: hacerlo 1 semana antes del inicio real.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hacienda-card secondary">
+                    <h3><i class="fas fa-question-circle"></i> Modelo 037: Versión simplificada</h3>
+                    <p>El <strong>Modelo 037</strong> es una versión reducida del 036 para autónomos con actividades sencillas.</p>
+                    
+                    <div class="comparison-037">
+                        <h4>¿Cuándo usar cada uno?</h4>
+                        <ul>
+                            <li><strong>Modelo 036:</strong> Sociedades (S.L.), actividades complejas, régimen especial IVA, importaciones/exportaciones.</li>
+                            <li><strong>Modelo 037:</strong> Autónomos persona física con actividad sencilla, régimen general IVA, sin representantes.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tip-box">
+                        <i class="fas fa-lightbulb"></i>
+                        <strong>Recomendación:</strong> Si tienes dudas, usa siempre el <strong>Modelo 036</strong> (completo). Cubre todas las situaciones y evita errores.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PASO 3: Seguridad Social -->
+        <section class="content-section">
+            <h2><i class="fas fa-user-shield"></i> PASO 3: Alta en Seguridad Social (RETA)</h2>
+            <p class="intro-text">Si eres autónomo o administrador de S.L. con actividad efectiva, debes darte de alta en el <strong>Régimen Especial de Trabajadores Autónomos (RETA)</strong>. Esta cotización te da derecho a prestaciones (baja, jubilación, paro autónomos).</p>
+            
+            <div class="seguridad-social-grid">
+                <div class="ss-card">
+                    <h3><i class="fas fa-file-alt"></i> Proceso de Alta RETA</h3>
+                    
+                    <div class="ss-steps">
+                        <div class="ss-step">
+                            <div class="ss-step-num">1</div>
+                            <div class="ss-step-content">
+                                <h4>Solicitud Online</h4>
+                                <p><strong>Web:</strong> <a href="https://portal.seg-social.gob.es" target="_blank">https://portal.seg-social.gob.es</a></p>
+                                <p>Accede con certificado digital o Cl@ve → "Trámites" → "Alta en RETA"</p>
+                                <p><strong>Plazo ejecución:</strong> Inmediato (confirmación en 24h)</p>
+                            </div>
+                        </div>
+
+                        <div class="ss-step">
+                            <div class="ss-step-num">2</div>
+                            <div class="ss-step-content">
+                                <h4>Elegir Base de Cotización</h4>
+                                <p>La base de cotización determina tu cuota mensual y futuras prestaciones.</p>
+                                
+                                <table class="bases-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Base Cotización</th>
+                                            <th>Cuota Mensual (2026)</th>
+                                            <th>Prestaciones</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Mínima</strong><br>950€/mes</td>
+                                            <td class="highlight-cell">~310€/mes</td>
+                                            <td>Básicas (más baja pensión futura)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Media</strong><br>1.500€/mes</td>
+                                            <td>~460€/mes</td>
+                                            <td>Equilibradas (pensión media)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Máxima</strong><br>4.720€/mes</td>
+                                            <td>~1.430€/mes</td>
+                                            <td>Máximas (pensión máxima futura)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="info-box">
+                                    <i class="fas fa-info-circle"></i>
+                                    <strong>Nota 2026:</strong> La base de cotización de autónomos es ahora por tramos de ingresos reales (reforma 2023-2025). Si declaras menos de 1.700€/mes de ingresos netos, puedes cotizar por cuota reducida desde 230€/mes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ss-step">
+                            <div class="ss-step-num">3</div>
+                            <div class="ss-step-content">
+                                <h4>Tarifa Plana Nuevos Autónomos</h4>
+                                <p>Si es tu <strong>primera vez como autónomo</strong> (o han pasado +2 años desde último alta), tienes derecho a:</p>
+                                
+                                <div class="tarifa-plana-box">
+                                    <div class="tarifa-item">
+                                        <strong>Meses 1-12</strong>
+                                        <span class="tarifa-price">80€/mes</span>
+                                    </div>
+                                    <div class="tarifa-item">
+                                        <strong>Meses 13-24</strong>
+                                        <span class="tarifa-price">~160€/mes</span>
+                                        <small>(si ingresos &lt; SMI)</small>
+                                    </div>
+                                    <div class="tarifa-item">
+                                        <strong>Desde mes 25</strong>
+                                        <span class="tarifa-price">Cuota normal</span>
+                                        <small>(según ingresos reales)</small>
+                                    </div>
+                                </div>
+
+                                <div class="success-box">
+                                    <i class="fas fa-piggy-bank"></i>
+                                    <strong>Ahorro primer año:</strong> ~2.760€ (cuota normal 310€ vs tarifa plana 80€)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deadline-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <strong>¡MUY IMPORTANTE!</strong> El alta en RETA debe ser <strong>anterior o coincidente con el inicio de actividad</strong>. Si Seguridad Social detecta que facturaste antes del alta, te sancionan + cobran retroactivos desde primera factura.
+                    </div>
+                </div>
+
+                <div class="ss-card secondary">
+                    <h3><i class="fas fa-building"></i> Caso Especial: Administradores S.L.</h3>
+                    
+                    <div class="sl-admin-rules">
+                        <h4>¿Cuándo debe cotizar un administrador?</h4>
+                        
+                        <div class="rule-item negative">
+                            <i class="fas fa-times-circle"></i>
+                            <strong>NO cotiza si:</strong>
+                            <ul>
+                                <li>No tiene retribución (cargo gratuito)</li>
+                                <li>No realiza funciones de dirección efectiva</li>
+                                <li>Tiene otro trabajo por cuenta ajena a jornada completa</li>
+                            </ul>
+                        </div>
+
+                        <div class="rule-item positive">
+                            <i class="fas fa-check-circle"></i>
+                            <strong>SÍ cotiza obligatoriamente si:</strong>
+                            <ul>
+                                <li>Tiene más del 25% del capital social (socio mayoritario)</li>
+                                <li>Cobra sueldo por sus funciones</li>
+                                <li>Ejerce dirección y gestión efectiva (trabaja activamente)</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box">
+                            <strong>Ejemplo:</strong> Creas S.L. con socio 50%-50%. Tú eres administrador único y trabajas en la empresa desarrollando software. Aunque no tengas +50%, debes cotizar en RETA porque ejerces funciones ejecutivas reales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PASO 4: Licencias y Registros -->
+        <section class="content-section">
+            <h2><i class="fas fa-clipboard-check"></i> PASO 4: Licencias y Registros Necesarios</h2>
+            
+            <div class="licenses-grid">
+                <div class="license-card">
+                    <div class="license-header">
+                        <i class="fas fa-store-alt"></i>
+                        <h3>Licencia de Apertura / Actividad</h3>
+                        <span class="badge badge-conditional">Condicional</span>
+                    </div>
+                    
+                    <div class="license-content">
+                        <h4>¿Cuándo es necesaria?</h4>
+                        <ul>
+                            <li><strong>SÍ necesaria:</strong> Si tienes local físico abierto al público (tienda informática, academia, coworking propio)</li>
+                            <li><strong>NO necesaria:</strong> Teletrabajo desde casa, oficina privada sin acceso público, servicios 100% online</li>
+                        </ul>
+
+                        <div class="process-detail">
+                            <h4>Trámite (si aplica):</h4>
+                            <p><strong>Dónde:</strong> Ayuntamiento de tu ciudad (área de licencias)</p>
+                            <p><strong>Documentación:</strong></p>
+                            <ul>
+                                <li>Formulario solicitud licencia apertura</li>
+                                <li>Alta censal AEAT (Modelo 036)</li>
+                                <li>Contrato alquiler o escritura propiedad local</li>
+                                <li>Planos del local (si superficie &gt; 300m²)</li>
+                            </ul>
+                            <p><strong>Coste:</strong> 200€ - 800€ (según ciudad y superficie)</p>
+                            <p><strong>Plazo:</strong> 1-3 meses (varía mucho por ayuntamiento)</p>
+                        </div>
+
+                        <div class="tip-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Consulta municipal:</strong> Algunos ayuntamientos han eliminado la licencia de apertura para actividades sin impacto (oficinas). Consulta en tu área de licencias antes de iniciar trámite.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="license-card important">
+                    <div class="license-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>RGPD: Protección de Datos</h3>
+                        <span class="badge badge-danger">OBLIGATORIO</span>
+                    </div>
+                    
+                    <div class="license-content">
+                        <h4>¿Por qué es obligatorio en empresas IT?</h4>
+                        <p>Cualquier empresa que trate datos personales (clientes, proveedores, empleados, usuarios web) debe cumplir el <strong>Reglamento General de Protección de Datos (RGPD/GDPR)</strong>.</p>
+
+                        <div class="rgpd-requirements">
+                            <h4>Requisitos mínimos RGPD:</h4>
+                            <ol>
+                                <li>
+                                    <strong>Política de Privacidad:</strong>
+                                    <p>Documento legal explicando cómo tratas datos personales. Debe estar en tu web, accesible desde todas las páginas.</p>
+                                </li>
+                                <li>
+                                    <strong>Aviso Legal:</strong>
+                                    <p>Identificación de tu empresa (CIF, domicilio, email, registro mercantil si S.L.).</p>
+                                </li>
+                                <li>
+                                    <strong>Política de Cookies:</strong>
+                                    <p>Si tu web usa cookies (analytics, publicidad), debes informar y obtener consentimiento.</p>
+                                </li>
+                                <li>
+                                    <strong>Registro de Actividades de Tratamiento:</strong>
+                                    <p>Documento interno listando qué datos tratas, para qué, dónde se almacenan, plazos.</p>
+                                </li>
+                                <li>
+                                    <strong>Consentimiento explícito:</strong>
+                                    <p>Checkboxes en formularios, doble opt-in en newsletters.</p>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="sanction-warning">
+                            <i class="fas fa-gavel"></i>
+                            <strong>Sanciones AEPD:</strong> Entre 900€ y 20 millones€ (o 4% facturación anual) según gravedad. Infracciones comunes: ausencia política privacidad, no atender derechos ARCO (acceso, rectificación, cancelación, oposición).
+                        </div>
+
+                        <div class="solution-box">
+                            <h4><i class="fas fa-tools"></i> Soluciones prácticas:</h4>
+                            <ul>
+                                <li><strong>Generadores gratuitos:</strong> <a href="https://www.aepd.es/es/documento/facilita-rgpd.pdf" target="_blank">Facilita RGPD (AEPD)</a> - herramienta oficial</li>
+                                <li><strong>Asesoría legal:</strong> 300-600€ pack completo (políticas + registro + análisis riesgos)</li>
+                                <li><strong>Software RGPD:</strong> Herramientas SaaS desde 20€/mes (gestión automática compliance)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="license-card">
+                    <div class="license-header">
+                        <i class="fas fa-university"></i>
+                        <h3>Cuenta Bancaria Empresarial</h3>
+                        <span class="badge badge-success">Muy recomendado</span>
+                    </div>
+                    
+                    <div class="license-content">
+                        <h4>¿Es obligatoria?</h4>
+                        <ul>
+                            <li><strong>Autónomo:</strong> No obligatoria legalmente, pero <strong>MUY recomendada</strong> para separar finanzas personales y profesionales.</li>
+                            <li><strong>Sociedad Limitada:</strong> <strong>OBLIGATORIA</strong>. Necesitas cuenta a nombre de la sociedad para depositar capital social (3.000€ mínimo) ante notario.</li>
+                        </ul>
+
+                        <div class="bank-comparison">
+                            <h4>Opciones de cuentas empresariales:</h4>
+                            <table class="bank-table">
+                                <thead>
+                                    <tr>
+                                        <th>Banco</th>
+                                        <th>Coste mensual</th>
+                                        <th>Ventajas</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Neobancos</strong><br>(Revolut Business, Qonto, Holvi)</td>
+                                        <td>0€ - 15€/mes</td>
+                                        <td>100% online, app moderna, tarjetas virtuales, sin papeleo</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Bancos online</strong><br>(N26, Openbank, EVO)</td>
+                                        <td>0€ - 10€/mes</td>
+                                        <td>Sin comisiones básicas, gestión digital</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Bancos tradicionales</strong><br>(BBVA, Santander, CaixaBank)</td>
+                                        <td>15€ - 40€/mes</td>
+                                        <td>Red oficinas, TPV físico, financiación empresarial</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tip-box">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Recomendación:</strong> Para startups IT, usa neobanco (Revolut Business o Qonto) → 0€ coste, apertura en 10 minutos online, integración con software contable.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PASO 5: Firma Electrónica -->
+        <section class="content-section highlight-section">
+            <h2><i class="fas fa-signature"></i> PASO 5: Importancia de la Firma Electrónica</h2>
+            <p class="intro-text">La firma electrónica es esencial en empresas IT para <strong>agilizar contratos, validar documentos legales y operar 100% digital</strong>. Tiene la misma validez legal que una firma manuscrita.</p>
+            
+            <div class="firma-types">
+                <div class="firma-card">
+                    <h3><i class="fas fa-check"></i> Firma Electrónica Simple</h3>
+                    <div class="firma-content">
+                        <p><strong>Qué es:</strong> Cualquier firma digital básica (escaneado firma manuscrita, checkbox "acepto términos", PIN SMS).</p>
+                        <p><strong>Validez legal:</strong> Baja → Solo válida si ambas partes la aceptan. No tiene presunción de autenticidad.</p>
+                        <p><strong>Usos:</strong> Contratos internos poco críticos, formularios online.</p>
+                    </div>
+                </div>
+
+                <div class="firma-card">
+                    <h3><i class="fas fa-check-double"></i> Firma Electrónica Avanzada</h3>
+                    <div class="firma-content">
+                        <p><strong>Qué es:</strong> Firma vinculada al firmante de manera unívoca, permite identificar al firmante, se crea con medios bajo control exclusivo del firmante.</p>
+                        <p><strong>Validez legal:</strong> Media → Válida jurídicamente, detecta modificaciones posteriores.</p>
+                        <p><strong>Usos:</strong> Contratos B2B, acuerdos con proveedores, documentos internos importantes.</p>
+                        <p><strong>Herramientas:</strong> DocuSign, SignNow, Adobe Sign (desde 10€/mes).</p>
+                    </div>
+                </div>
+
+                <div class="firma-card featured">
+                    <h3><i class="fas fa-certificate"></i> Firma Electrónica Cualificada/Reconocida</h3>
+                    <span class="badge badge-success">Máxima validez</span>
+                    
+                    <div class="firma-content">
+                        <p><strong>Qué es:</strong> Firma electrónica avanzada basada en certificado digital cualificado emitido por autoridad certificación (FNMT, Camerfirma).</p>
+                        <p><strong>Validez legal:</strong> <strong>MÁXIMA</strong> → Equivale legalmente a firma manuscrita ante notario. Presunción de autenticidad legal.</p>
+                        <p><strong>Usos obligatorios:</strong></p>
+                        <ul>
+                            <li>Trámites administraciones públicas (Hacienda, Seg. Social)</li>
+                            <li>Licitaciones públicas</li>
+                            <li>Constitución sociedades telemática</li>
+                            <li>Contratos con entidades financieras</li>
+                            <li>Actas notariales electrónicas</li>
+                        </ul>
+                        
+                        <div class="certificate-box">
+                            <h4>Cómo obtenerla:</h4>
+                            <p><strong>Ya la tienes:</strong> Si obtuviste certificado digital FNMT (Paso 1), ese certificado incluye firma electrónica reconocida.</p>
+                            <p><strong>Dónde usarla:</strong></p>
+                            <ul>
+                                <li>Sede electrónica AEAT (presentar declaraciones)</li>
+                                <li>Seguridad Social (gestión RETA)</li>
+                                <li>Registro Mercantil telemático</li>
+                                <li>Software específico (Adobe Acrobat, AutoFirma FNMT)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="firma-benefits">
+                <h3><i class="fas fa-rocket"></i> Ventajas para empresas IT:</h3>
+                <div class="benefits-grid-firma">
+                    <div class="benefit-firma">
+                        <i class="fas fa-clock"></i>
+                        <h4>Agilidad</h4>
+                        <p>Firma contratos en minutos desde cualquier lugar. Sin impresiones, escaneos ni correos.</p>
+                    </div>
+                    <div class="benefit-firma">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Sostenibilidad</h4>
+                        <p>Cero papel → 100% digital. Reducción costes impresión y archivo físico.</p>
+                    </div>
+                    <div class="benefit-firma">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Seguridad</h4>
+                        <p>Certificados de integridad, trazabilidad completa, imposible falsificar o repudiar.</p>
+                    </div>
+                    <div class="benefit-firma">
+                        <i class="fas fa-globe"></i>
+                        <h4>Global</h4>
+                        <p>Firma con clientes internacionales sin desplazamientos. Validez en UE (eIDAS).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="real-example">
+                <h4><i class="fas fa-briefcase"></i> Caso de uso real:</h4>
+                <p><strong>Startup SaaS contrata freelance desarrollador en remoto:</strong></p>
+                <ol>
+                    <li>Redacta contrato freelance (NDA + condiciones proyecto)</li>
+                    <li>Envía documento por DocuSign con firma electrónica avanzada</li>
+                    <li>Desarrollador firma desde Berlín en 5 minutos</li>
+                    <li>Ambos reciben PDF con certificado validez + timestamp</li>
+                    <li>Contrato 100% válido legalmente, archivado en cloud</li>
+                </ol>
+                <p><strong>Ahorro vs proceso tradicional:</strong> 0€ correos, 0 días espera, 0 riesgo pérdida documento.</p>
+            </div>
+        </section>
+
+        <!-- Checklist Final -->
+        <section class="content-section">
+            <h2><i class="fas fa-tasks"></i> Checklist: ¿Está mi empresa lista?</h2>
+            
+            <div class="checklist-final">
+                <div class="checklist-section">
+                    <h3>✅ Trámites obligatorios completados</h3>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Certificado digital FNMT o Cl@ve operativo</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Alta censal AEAT (Modelo 036/037) presentada</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Alta RETA Seguridad Social confirmada (antes de facturar)</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Cuenta bancaria empresarial abierta</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Política de privacidad y aviso legal publicados en web</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Sistema de facturación implementado (software o Excel)</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Gestoría/asesor fiscal contratado (recomendado)</span>
+                    </label>
+                </div>
+
+                <div class="checklist-section optional">
+                    <h3>⚙️ Trámites opcionales (según actividad)</h3>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Licencia apertura (si local físico público)</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Registro marca OEPM</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Dominio web + hosting contratado</span>
+                    </label>
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Seguro RC profesional (errores/omisiones)</span>
+                    </label>
+                </div>
+
+                <div class="costs-summary">
+                    <h3><i class="fas fa-calculator"></i> Resumen de costes iniciales</h3>
+                    
+                    <div class="cost-breakdown">
+                        <div class="cost-item">
+                            <span>Certificado digital</span>
+                            <strong>0€</strong>
+                        </div>
+                        <div class="cost-item">
+                            <span>Alta AEAT + Seguridad Social</span>
+                            <strong>0€</strong>
+                        </div>
+                        <div class="cost-item">
+                            <span>Tarifa plana RETA (primer mes)</span>
+                            <strong>80€</strong>
+                        </div>
+                        <div class="cost-item">
+                            <span>Gestoría fiscal (mensual)</span>
+                            <strong>60-100€</strong>
+                        </div>
+                        <div class="cost-item">
+                            <span>Cuenta bancaria (mensual)</span>
+                            <strong>0-15€</strong>
+                        </div>
+                        <div class="cost-item">
+                            <span>Políticas RGPD (una vez)</span>
+                            <strong>0-300€</strong>
+                        </div>
+                        <div class="cost-item total">
+                            <span>Primer mes operativo</span>
+                            <strong>140-495€</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <i class="fas fa-piggy-bank"></i>
+                        <strong>Consejo financiero:</strong> Reserva un colchón de 1.000-2.000€ para costes iniciales + 3 meses de cuota autónomos (~1.000€) mientras consigues primeros clientes.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navegación entre secciones -->
+        <section class="section-navigation">
+            <a href="fiscalidad.html" class="nav-btn btn-back">
+                <i class="fas fa-arrow-left"></i> Anterior: Fiscalidad
+            </a>
+            <a href="index.html" class="nav-btn btn-next">
+                <i class="fas fa-home"></i> Volver al inicio
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <p>&copy; 2026 IT Business Guide. Información orientativa. Consulta fuentes oficiales (AEAT, Seguridad Social, AEPD) para confirmación actualizada.</p>
+    </footer>
+
+    <!-- Script para animaciones scroll -->
+    <script>
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('scroll-reveal-active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.content-section, .step-card, .license-card, .firma-card').forEach(el => {
+            el.classList.add('scroll-reveal');
+            observer.observe(el);
+        });
+
+        // Animación timeline
+        const timelineItems = document.querySelectorAll('.timeline-item');
+        timelineItems.forEach((item, index) => {
+            setTimeout(() => {
+                item.style.opacity = '1';
+                item.style.transform = 'translateX(0)';
+            }, index * 200);
+        });
+    </script>
+</body>
+</html>
